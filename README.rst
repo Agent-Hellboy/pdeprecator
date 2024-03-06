@@ -1,5 +1,5 @@
-deprecated_params
-=================
+pdeprecator
+===========
 
 -  This library provides a decorator deprecated_params that allows you
    to deprecate certain parameters in your class methods or function.
