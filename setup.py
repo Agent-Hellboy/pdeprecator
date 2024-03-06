@@ -8,11 +8,11 @@ def read(fname):
 
 
 setup(
-    name="pdeprector",
+    name="pdeprecator",
     author="Prince Roshan",
     version='0.0.1',
     author_email="princekrroshan01@gmail.com",
-    url="https://github.com/Agent-Hellboy/trace-dkey",
+    url="https://github.com/Agent-Hellboy/pdeprecator",
     description=("A library provides a decorator deprecated_params that allows you to deprecate certain parameters in your class methods or function."),
     long_description=read("README.rst"),
     license="MIT",
