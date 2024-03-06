@@ -26,19 +26,21 @@ print(obj.new_param)
 
     You should do following 
 
-    ```python
-    pip install deprecated
+ 
+ 
+```python
+  pip install deprecated
 
-    from deprecated import deprecated
+  from deprecated import deprecated
 
-    # Deprecate a function
-    @deprecated(reason="Use another_function instead")
-    def deprecated_function():
-        pass
+  # Deprecate a function
+  @deprecated(reason="Use another_function instead")
+  def deprecated_function():
+      pass
 
-    # Deprecate a class method
-    class MyClass:
-        @deprecated(reason="Use another_method instead")
-        def deprecated_method(self):
-            pass
-    ```
+  # Deprecate a class method
+  class MyClass:
+      @deprecated(reason="Use another_method instead")
+      def deprecated_method(self):
+          pass
+```
