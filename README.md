@@ -5,11 +5,11 @@
 ## Installation
 
 For stable version 
-   - clone the repo and do `python setup.py install`
+   - pip install pdeprector
 
 For developement 
    - git clone https://github.com/Agent-Hellboy/pdeprector
-   - cd tpdeprector
+   - cd  pdeprector
    - python -m venv .venv 
    - source .venv/bin/activate
 
