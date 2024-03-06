@@ -2,6 +2,17 @@
 
   - This library provides a decorator deprecated_params that allows you to deprecate certain parameters in your class methods or function.
 
+## Installation
+
+For stable version 
+   - clone the repo and do `python setup.py install`
+
+For developement 
+   - git clone https://github.com/Agent-Hellboy/pdeprector
+   - cd tpdeprector
+   - python -m venv .venv 
+   - source .venv/bin/activate
+
 ## Example 
 
 ```python
