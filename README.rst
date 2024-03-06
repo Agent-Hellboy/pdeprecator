@@ -4,6 +4,29 @@ deprecated_params
 -  This library provides a decorator deprecated_params that allows you
    to deprecate certain parameters in your class methods or function.
 
+
+
+.. image:: https://img.shields.io/pypi/v/pdeprecator
+   :target: https://pypi.python.org/pypi/pdeprecator/
+
+.. image:: https://github.com/Agent-Hellboy/pdeprecator/actions/workflows/python-app.yml/badge.svg
+    :target: https://github.com/Agent-Hellboy/pdeprecator/
+    
+.. image:: https://img.shields.io/pypi/pyversions/pdeprecator.svg
+   :target: https://pypi.python.org/pypi/pdeprecator/
+
+.. image:: https://img.shields.io/pypi/l/pdeprecator.svg
+   :target: https://pypi.python.org/pypi/pdeprecator/
+
+.. image:: https://pepy.tech/badge/pdeprecator
+   :target: https://pepy.tech/project/pdeprecator
+
+.. image:: https://img.shields.io/pypi/format/pdeprecator.svg
+   :target: https://pypi.python.org/pypi/pdeprecator/
+
+.. image:: https://coveralls.io/repos/github/Agent-Hellboy/pdeprecator/badge.svg?branch=master
+   :target: https://coveralls.io/github/Agent-Hellboy/pdeprecator?branch=master
+
 Installation
 ------------
 
