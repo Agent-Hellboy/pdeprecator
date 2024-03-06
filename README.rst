@@ -9,7 +9,7 @@ deprecated_params
 .. image:: https://img.shields.io/pypi/v/pdeprecator
    :target: https://pypi.python.org/pypi/pdeprecator/
 
-.. image:: https://github.com/Agent-Hellboy/pdeprecator/actions/workflows/python-app.yml/badge.svg
+.. image:: https://github.com/Agent-Hellboy/pdeprecator/actions/workflows/python-package.yml/badge.svg
     :target: https://github.com/Agent-Hellboy/pdeprecator/
     
 .. image:: https://img.shields.io/pypi/pyversions/pdeprecator.svg
