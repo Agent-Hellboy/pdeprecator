@@ -7,10 +7,14 @@ deprecated_params
 Installation
 ------------
 
-For stable version - pip install pdeprector
+For stable version 
+   - pip install pdeprector
 
-For developement - git clone https://github.com/Agent-Hellboy/pdeprector
-- cd pdeprector - python -m venv .venv - source .venv/bin/activate
+For developement 
+   - git clone https://github.com/Agent-Hellboy/pdeprector
+   - cd pdeprector 
+   - python -m venv .venv 
+   - source .venv/bin/activate
 
 Example
 -------
@@ -35,7 +39,9 @@ Warning
 
    - It's recommended to write new functions or classes with a v2 suffix instead of using this deprecated library. 
 
-   - If possible, migrate to the newer version with v2 suffix.    However, if migration is not feasible at the moment, you can continue using this library with caution.
+   - If possible, migrate to the newer version with v2 suffix.    
+     
+     However, if migration is not feasible at the moment, you can continue using this library with caution.
 
    You should do following 
 
