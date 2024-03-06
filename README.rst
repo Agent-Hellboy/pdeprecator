@@ -55,32 +55,36 @@ Example
    obj = MyClass(old_param="value")
    print(obj.new_param)
 
+   Warning: Deprecating a parameter name change contradicts the
+   open-closed principle of SOLID, although 
+   it's not an inflexible rule.
+
 Warning
 -------
 
 ::
 
-   - It's recommended to write new functions or classes with a v2 suffix instead of using this deprecated library. 
+   - It's recommended to write new functions or classes with a v2 
+     suffix instead of using this deprecated library. 
 
    - If possible, migrate to the newer version with v2 suffix.    
-     
-     However, if migration is not feasible at the moment, you can continue using this library with caution.
+     However, if migration is not feasible at the moment, 
+     you can continue using this library with caution.
+
+
 
    You should do following 
-
 .. code:: python
 
-     pip install deprecated
+      from deprecated import deprecated
 
-     from deprecated import deprecated
-
-     # Deprecate a function
-     @deprecated(reason="Use another_function instead")
-     def deprecated_function():
+      # Deprecate a function
+      @deprecated(reason="Use function_v2 instead")
+      def function():
          pass
 
-     # Deprecate a class method
-     class MyClass:
-         @deprecated(reason="Use another_method instead")
-         def deprecated_method(self):
-             pass
+      def function_v2():
+         # New implementation for function_v2
+         pass
+
+     
